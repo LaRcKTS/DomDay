@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="./gym.js"></script>
+    <link rel="stylesheet" href="./estilos.css"> 
+    <title>LaRcK Gym</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.31.0/dist/full.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <div class="navbar bg-base-100">
+        <a class="btn btn-ghost normal-case text-xl">DomDay</a>
+    </div>
+
+    <div class="hero min-h-screen bg-base-200">
+      <div class="hero-content text-center">
+        <div class="max-w-md">
+          <h1 class="text-5xl font-bold">Bienvenido a DomDay</h1>
+          <p class="py-6">Tus Dominadas Diarias registradas para que no te olvides cuantas llevas!</p>
+          <button class="btn btn-primary">Anotá mis dominadas</button>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Cuantas Dominadas hizo? 
+
+    <div class="form-control">
+        <div class="input-group">
+          <select class="select select-bordered">
+            <option disabled selected>Cuantas Dominadas Hiciste?</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+          </select>
+          <button class="btn">Go</button>
+        </div>
+      </div>
+    -->
+    <div id="RangoSeries">
+    <!-- Cuantas dominadas queres hacer al dia? -->
+      <div id="DominadasTotal">
+        <select class="select select-primary w-full max-w-xs ">
+          <option disabled selected>¿Cuantas Dominadas queres hacer hoy?</option>
+          <option>50 Dominadas</option>
+          <option>60 Dominadas</option>
+          <option>70 Dominadas</option>
+          <option>80 Dominadas</option>
+          <option>90 Dominadas</option>
+          <option>100 Dominadas</option>
+       </select>
+      </div>
+
+
+    <!-- (con range en daisyUI) en cuantas series -->
+      <div >
+        <input type="range" min="0" max="100" value="10" class="range range-primary" />
+        <div class="w-full flex justify-between text-xs px-2">
+          <span>1 Serie</span>
+          <span>2 Series</span>
+          <span>3 Series</span>
+          <span>4 Series</span>
+          <span>5 Series</span>
+        </div>
+      </div>
+    </div>  
+      <br/>
+      <!--
+      <div class="Rangodos">
+        <input type="range" min="5" max="20" value="1" class="range" step="1" />
+        <div class="w-full flex justify-between text-xs px-2">
+          <span>|</span>
+          <span>|</span>
+          <span>|</span>
+          <span>|</span>
+          <span>|</span>
+        </div>
+      </div>
+      -->  
+      <!-- Cuantas te faltan? -->
+</body>
+</html>

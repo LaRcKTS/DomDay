@@ -1,0 +1,27 @@
+#DominadasTotal {
+    margin: 30px;
+  }
+
+#RangoSeries {
+    width: 100%;
+    padding: 12px 20px;
+    margin-right: auto; 
+    display: inline-block;
+    border: 1px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+}
+
+.Rangodos {
+    width: 25%;
+    padding: 12px 20px;
+    margin-left: auto;
+    margin-right: auto; 
+    display: inline-block;
+    border: 1px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    align-content: center;
+}
